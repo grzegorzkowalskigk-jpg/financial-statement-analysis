@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+
+# Caches / data dumps
+.cache/
+*.csv
+.dashboard_state.json
+
+# System / IDE
+.DS_Store
+.idea/
+.vscode/

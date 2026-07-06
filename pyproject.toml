@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finstate"
+version = "0.1.0"
+description = "Financial statement analysis and ratio dashboard from SEC EDGAR data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "pandas>=2.0",
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+    "yfinance>=0.2.60",
+    "streamlit>=1.30",
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
